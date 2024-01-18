@@ -1,7 +1,32 @@
-.App {
-  text-align: center;
+.bg-dark {
+	--bs-bg-opacity: 0.92;
 }
 
+.App {
+	text-align: center;
+}
+
+body {
+	background: #64646446;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.card-overlay {
+	transition: background-color 0.3s ease-in-out;
+}
+
+.card-overlay:hover {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card-img-overlay {
+	padding: 0;
+}
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
